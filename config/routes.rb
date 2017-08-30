@@ -108,4 +108,6 @@ Webplatform::Application.routes.draw do
       get :surveys
     end
   end
+
+  resources :badges, only: [:index]
 end
